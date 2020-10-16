@@ -14,21 +14,21 @@ ul{
   margin-top: 25px;
 }
 ul li{
-  display: inline-block;
-  font-size: 20px;
+  display: inline;
+  font-size: 30px;
 }
 ul li a{
   text-decoration: none;
   color: #fff;
   padding: 5px 20px;
-  border: 1px solid transparent;
+  border: 1px solid black;
 }
 ul li a:hover{
-  background-color: seagreen;
+  background-color: cyan;
   color: #fff;
 }
 ul li a.active{
-  background-color: seagreen;
+  background-color: green;
   color: #fff;
 }
 .main{
@@ -72,6 +72,6 @@ ul li a.active{
 
 .btn2:hover{
   border: none;
-  background: seagreen;
+  background: red;
   color: #fff;
 }
